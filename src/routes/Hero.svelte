@@ -6,8 +6,8 @@
 </script>
 
 
-<section>
-	<h1>
+<section class="stack-l-center">
+	<h1 class="text-primary-500 fs-primary-heading stack-l-center">
 		<span class="welcome">
 			<picture>
 				<source srcset={welcome} type="image/webp" />
@@ -18,24 +18,25 @@
 		to your new<br />SvelteKit app
 	</h1>
 
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
+	<h2 class="fs-secondary-heading text-primary-400">
+		try editing <br /> <strong class="fs-500 text-neutral-100">src/routes/+page.svelte</strong>
 	</h2>
 
-	<Counter />
+	
 </section>
 
 <style>
-	section {
+	/* section {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		flex: 0.6;
-	}
+	} */
 
 	h1 {
 		width: 100%;
+
 	}
 	.welcome {
 		display: block;
